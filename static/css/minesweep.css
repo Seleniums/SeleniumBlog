@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.mine_map {
+    margin-top: 2%;
+}
+
+.mine_level {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mine_area {
+    border: 8px ridge #C3CCFE;
+    margin: 0px auto;
+    background: #B6B6B6;
+}
+
+.mine_div {
+    border-bottom: 8px ridge #C3CCFE;
+}
+
+.mine_cell {
+    width: 27px;
+    height: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    background: #3537E0;
+    border: 2px outset #2D52BD;
+}
+
+.flag {
+    background: url("../images/mine/flag.png");
+    background-size: cover;
+}
+
+.score {
+    padding: 10px 0px;
+}
+
+.score img {
+    width: 27px;
+}
+
+.score input {
+    width: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    background-color: #3537E0;
+    font-size: 13pt;
+}
+
+.wrong_mine {
+    background: #C5C5C5 url("../images/mine/wrong_mine.png");
+    background-size: cover;
+    border: 1px solid #B4B4B4;
+}
+
+.wrong_flag {
+    background: #C5C5C5 url("../images/mine/wrong_flag.png");
+    background-size: cover;
+    border: 1px solid #B4B4B4;
+}
+
+.M0, .M1, .M2, .M3, .M4, .M5, .M6, .M7, .M8 {
+    background: #C5C5C5;
+    border: 1px solid #B4B4B4;
+}
+
+.M1 {
+    color: #00f
+}
+
+.M2 {
+    color: #008000
+}
+
+.M3 {
+    color: #f00
+}
+
+.M4 {
+    color: #000080
+}
+
+.M5 {
+    color: #800000
+}
+
+.M6 {
+    color: #008080
+}
+
+.M7 {
+    color: #000
+}
+
+.M8 {
+    color: #808080
+}
+
+

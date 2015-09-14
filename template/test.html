@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+        function loadXMLDoc(url) {
+            $(document).get(url, function (responseTxt, statusTxt, xhr) {
+                $('#A1').html("5555");
+                $('#A1').html(statusTxt);
+                $('#A1').html(responseTxt);
+            });
+
+        }
+    </script>
+</head>
+<body>
+
+<h2>Retrieve data from XML file</h2>
+
+<p><b>Status:</b><span id="A1"></span></p>
+
+<p><b>Status text:</b><span id="A2"></span></p>
+
+<p><b>Response:</b><span id="A3"></span></p>
+<button onclick="loadXMLDoc('static/ajax_info.txt')">Get XML data</button>
+
+</body>
+</html>

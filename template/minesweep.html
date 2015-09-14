@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+    <link href="css/minesweep.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="Init()">
+<div class="mine_map">
+    <form class="mine_level" name="radio_list">
+        <input type="radio" name="level" checked id="R1" onclick="DrawMap(1)">初级
+        <input type="radio" name="level" id="R2" onclick="DrawMap(2)">中级
+        <input type="radio" name="level" id="R3" onclick="DrawMap(3)">高级
+    </form>
+    <div class="mine_area"></div>
+</div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/minesweep.js"></script>
+</html>
+
